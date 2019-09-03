@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    font-size: 13px;
+    color: #222;
+}
+li{
+    list-style: none;
+}
+header{
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+.logo span{
+    font-size: 1.8em;
+    color: #82B62D;
+}
+.logo strong{
+    font-size: 2.8em;
+}
+.mainTop{
+    float: right;
+}
+.contactTop{
+    line-height: 2.2em;
+    margin-top: 25px;
+    color: #999999;
+    margin-left: 12px;
+}
+.contactTop ul{
+    
+}
+.contactTop ul li{
+    display: inline-block;
+}
+.navTop {
+    line-height: 2.2em;
+}
+.navTop .socialTop{
+    float: right;
+}
+.navTop .socialTop li{
+    display: inline-block;
+    padding: 0px 3px;
+}
+.navTop .socialTop li a{
+    padding: 2px 3px;
+}
+.navTop nav{
+
+}
+.navTop nav li{
+    display: inline-block;
+}
