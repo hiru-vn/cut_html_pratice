@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    height: 100%;
+}
 body{
     font-family: arial;
     font-size: 13px;
@@ -117,12 +120,13 @@ header{
     padding: 5em 0;
     background: #fff;
     clear: both;
+    overflow: hidden;
 }
 .sectionSlider{
     background: #fff url(../resources/images/1.jpg) no-repeat center center;
     clear: both;
     height: 580px;
-    background-size: cover;
+    background-size: inherit;
 }
 .slider{
     padding: 3em;
@@ -178,6 +182,9 @@ header{
 
 
 /* sectionWelcome */
+.sectionWelcome{
+
+}
 .labelSection{
     font-size: 2.5em;
     color: #000;
@@ -191,16 +198,22 @@ header{
 .modWelcome article{
     display: block;
     clear: both;
+    height: 50%;
 }
 .modWelcome article .thubArt{
     display: block;
     max-width: 460px; 
     float: left;
     margin-right: 2em; 
+    height: 100%;
 }
 .modWelcome article:nth-child(2n+1) .thubArt{
     float: right;
     margin-left: 2em; 
+}
+.modWelcome article .thubArt div{
+    display: block;
+    height: 100%;
 }
 .modWelcome article .thubArt img{
     display: block;
@@ -253,4 +266,119 @@ header{
     margin: 1em 0;
 }
 .serviceCont p {
+}
+
+/* sectionNews */
+.sectionNews{
+    
+}
+.sectionNews article img {
+    width: 500px;
+    max-width: 100%;
+    float: left;
+    margin-right: 2em;
+}
+.sectionNews article ul{
+    display: inline-block;
+    float: left;
+}
+.sectionNews article ul li{
+    display: inline-block;
+    margin-right: 2em;
+    color: #000;
+}
+.sectionNews article h2{
+    font-size: 2.7em;
+    font-weight: 700;
+    max-width: 370px;
+    margin: 1em 0;
+    color: #000;
+    display: inline-block;
+}
+.sectionNews .btn-more{
+    display: inline-block;
+}
+/* subs */
+.sectionSubs{
+    background: #ccc url(../resources/images/5.jpg) no-repeat center;
+    background-size: cover;
+}
+.sectionSubs .labelSection{
+    color: #fff;
+}
+.subsCont{
+    text-align: center;
+}
+.subsCont input{
+    height: 34px;
+    background-color: white;
+    padding: 0px 10px;
+    border: none;
+    width: 250px;
+}
+.subsCont .btn-more{
+    height: 34px;
+    border: none;
+}
+/* footer */
+footer{
+    background-color: #f0f5f8;
+}
+footer .copyRight{
+    background-color: #0f1215;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.2em;
+}
+.mainFooter{
+    padding: 3em;
+    overflow: hidden; 
+}
+.mainFooter .col-3{
+    width: 36%;
+    float: left;
+    padding: 10px;
+}
+.mainFooter .col-2{
+    width: 18%;
+    float: left;
+    padding: 10px;
+    font-size: 1em;
+}
+.mainFooter .col-1{
+    width: 10%;
+    float: left;
+    padding: 10px;
+    font-size: 1em;
+}
+.mainFooter .col-3 h4{
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 1em;
+}
+.mainFooter .col-3 p{
+    line-break: 1.2em;
+    margin-bottom: 1.2em;
+    text-align: justify;
+}
+.mainFooter .col-2 h4{
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 1em;
+}
+.mainFooter .col-2 li{
+    color: #000;
+}
+.mainFooter .col-1 h4{
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 1em;
+}
+.mainFooter .col-1 li{
+    color: #000;
+}
+.mainFooter a{
+    text-decoration: none;
+    color: #999;
 }
